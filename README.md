@@ -99,7 +99,7 @@ py main.py # In Windows
 
 ### Example
 
-```bash
+```
 Ask your question (q to quit): What do people say about the staff?
 
 ----------------------------------------------------------------
