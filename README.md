@@ -89,11 +89,11 @@ py main.py # In Windows
 ---
 
 ### 🧠 How It Works
-	1.	CSV Parsing: Loads realistic_restaurant_reviews.csv with Polars for fast, efficient data reading.
-	2.	Embedding: Combines the review title and body, then embeds it using llama3.2.
-	3.	Vector Store: Saves the embeddings into a persistent Chroma vector store.
-	4.	Retriever: For any question, it pulls the top 5 most relevant reviews.
-	5.	LLM: Uses those reviews + question to generate a precise, contextual answer.
+1. CSV Parsing: Loads realistic_restaurant_reviews.csv with Polars for fast, efficient data reading.
+2. Embedding: Combines the review title and body, then embeds it using llama3.2.
+3. Vector Store: Saves the embeddings into a persistent Chroma vector store.
+4. Retriever: For any question, it pulls the top 5 most relevant reviews.
+5. LLM: Uses those reviews + question to generate a precise, contextual answer.
 
 ---
 
@@ -110,11 +110,11 @@ Most customers mention the staff is friendly and attentive. Some reviews highlig
 ---
 
 ### 📚 Credits
-•	🧠 LLM via [Ollama](https://ollama.com)
-•	🔍 Vector DB via [Chroma](https://www.trychroma.com)
-•	🧪 Tutorial by Tech With Tim: [YouTube Video](https://www.youtube.com/watch?v=E4l91XKQSgw)
-•	🧹 Performance Optimization: [Polars](https://pola.rs)
-•	⚡ Dependency & Env Management: [`uv`](https://github.com/astral-sh/uv)
+• 🧠 LLM via [Ollama](https://ollama.com)
+• 🔍 Vector DB via [Chroma](https://www.trychroma.com)
+• 🧪 Tutorial by Tech With Tim: [YouTube Video](https://www.youtube.com/watch?v=E4l91XKQSgw)
+• 🧹 Performance Optimization: [Polars](https://pola.rs)
+• ⚡ Dependency & Env Management: [`uv`](https://github.com/astral-sh/uv)
 
 ---
 
@@ -125,7 +125,7 @@ This project is open-sourced for educational and demonstration purposes. Please 
 ---
 
 ### 💡 Ideas to Extend
-	•	Build a web front-end using Streamlit or Gradio.
-	•	Add filters (e.g., rating thresholds, review date ranges).
-	•	Store user question history or allow session-based memory.
+• Build a web front-end using Streamlit or Gradio.
+• Add filters (e.g., rating thresholds, review date ranges).
+• Store user question history or allow session-based memory.
 
