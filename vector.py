@@ -22,6 +22,8 @@ if add_documents:
             metadata= {'rating': row["Rating"], 'date': row['Date']},
             id= str(i)
         )
+        documents.append(document)
+        ids.append(str(i))
 
 vector_store = Chroma(
     collection_name="restaurant_reviews",
